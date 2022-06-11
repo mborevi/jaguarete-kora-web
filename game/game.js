@@ -62,9 +62,9 @@ Module.expectedDataFileDownloads++;
             num++;
           }
           total = Math.ceil(total * Module.expectedDataFileDownloads/num);
-          if (Module['setStatus']) Module['setStatus']('Downloading data... (' + loaded + '/' + total + ')');
+          if (Module['setStatus']) Module['setStatus']('Descargando... (' + loaded + '/' + total + ')');
         } else if (!Module.dataFileDownloads) {
-          if (Module['setStatus']) Module['setStatus']('Downloading data...');
+          if (Module['setStatus']) Module['setStatus']('Descargando...');
         }
       };
       xhr.onerror = function(event) {
