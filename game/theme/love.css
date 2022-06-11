@@ -3,14 +3,13 @@
 }
 
 h1 {
-    font-family: arial;
+    font-family: JFJungleRock;
     color: rgb(250, 235, 150);
 }
 
 body {
-    background-image: url(bg.png);
-    background-repeat: no-repeat;
-    font-family: arial;
+    font-family: 'JFJungleRock';
+    src: url('JFJUNROC.TTF');
     margin: 0;
     padding: none;
     background-color: rgb( 44, 41, 32 );
@@ -18,7 +17,7 @@ body {
 }
 
 footer {
-    font-family: arial;
+    font-family: JFJungleRock;
     font-size: 12px;
     padding-left: 10px;
     position:absolute;
