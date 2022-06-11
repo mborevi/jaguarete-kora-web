@@ -5,6 +5,7 @@
 h1 {
     font-family: JFJungleRock;
     color: rgb(250, 235, 150);
+    font-size: 8vw;
 }
 
 body {
@@ -40,9 +41,11 @@ a:hover {
 }
 
 /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
-#canvas {
+#canvas, #loadingCanvas {
     padding-right: 0;
     display: display;
     border: 0px none;
     visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
