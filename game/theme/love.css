@@ -3,18 +3,27 @@
 }
 
 h1 {
-    font-family: 'JFJungleRock';
-    src: url('JFJUNROC.TTF');
-    color: rgb(250, 235, 150);
-    font-size: 8vw;
+    font-family: arial;
+    color: rgb( 11, 86, 117 );
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    font-family: arial;
     margin: 0;
     padding: none;
-    background-color: rgb( 44, 41, 32 );
-    color: rgb(250, 235, 150);
+    background-color: rgb( 154, 205, 237 );
+    color: rgb( 28, 78, 104 );
+}
+
+footer {
+    font-family: arial;
+    font-size: 12px;
+    padding-left: 10px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Links */
@@ -22,13 +31,13 @@ a {
     text-decoration: none;
 }
 a:link {
-    color: rgb(145, 136, 85);
+    color: rgb( 233, 73, 154 );
 }
 a:visited {
-    color: rgb(214, 205, 153);
+    color: rgb( 110, 30, 71 );
 }
 a:hover {
-    color: rgb(210, 195, 107);
+    color: rgb( 252, 207, 230 );
 }
 
 /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
@@ -37,10 +46,4 @@ a:hover {
     display: display;
     border: 0px none;
     visibility: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-#loadingCanvas {
-    margin-left: auto;
-    margin-right: auto;
 }
